@@ -1,0 +1,186 @@
+#ifndef APP_MODBUS_REG_H
+#define APP_MODBUS_REG_H
+
+#include <stdint.h>
+#include "Protect_Data.h"
+
+
+typedef enum {
+    SET_MODE_DISPLAY = 1,
+	SET_MODE_USB = 2,
+    SET_MODE_BLE = 3,
+    SET_MODE_EXTERNAL_485 = 4,
+    SET_MODE_645 = 5,
+	SET_MODE_698 = 6,
+} VALUE_SET_MODE;
+//设置代号
+
+uint32_t appMBX_Write_2000(void *value);
+uint32_t appMBX_Write_2001(void *value);
+uint32_t appMBX_Write_2002(void *value);
+uint32_t appMBX_Write_2003(void *value);
+uint32_t appMBX_Write_2004(void *value);
+uint32_t appMBX_Write_2005(void *value);
+uint32_t appMBX_Write_2006(void *value);
+uint32_t appMBX_Write_2007(void *value);
+uint32_t appMBX_Write_2008(void *value);
+uint32_t appMBX_Write_2009(void *value);
+uint32_t appMBX_Write_200A(void *value);
+uint32_t appMBX_Write_200B(void *value);
+uint32_t appMBX_Write_200C(void *value);
+uint32_t appMBX_Write_200D(void *value);
+uint32_t appMBX_Write_200E(void *value);
+uint32_t appMBX_Write_200F(void *value);
+uint32_t appMBX_Write_2010(void *value);
+uint32_t appMBX_Write_2011(void *value);
+uint32_t appMBX_Write_2012(void *value);
+uint32_t appMBX_Write_2013(void *value);
+uint32_t appMBX_Write_2014(void *value);
+uint32_t appMBX_Write_2015(void *value);
+uint32_t appMBX_Write_2016(void *value);
+uint32_t appMBX_Write_2017(void *value);
+uint32_t appMBX_Write_2018(void *value);
+uint32_t appMBX_Write_2019(void *value);
+uint32_t appMBX_Write_201A(void *value);
+uint32_t appMBX_Write_201B(void *value);
+uint32_t appMBX_Write_201C(void *value);
+uint32_t appMBX_Write_201D(void *value);
+uint32_t appMBX_Write_201E(void *value);
+uint32_t appMBX_Write_201F(void *value);
+uint32_t appMBX_Write_2020(void *value);
+uint32_t appMBX_Write_2021(void *value);
+uint32_t appMBX_Write_2022(void *value);
+uint32_t appMBX_Write_2023(void *value);
+uint32_t appMBX_Write_2050(void *value);
+uint32_t appMBX_Write_2051(void *value);
+uint32_t appMBX_Write_2052(void *value);
+uint32_t appMBX_Write_2053(void *value);
+uint32_t appMBX_Write_2054(void *value);
+uint32_t appMBX_Write_2055(void *value);
+uint32_t appMBX_Write_2056(void *value);
+uint32_t appMBX_Write_2057(void *value);
+uint32_t appMBX_Write_2100(void *value);
+uint32_t appMBX_Write_2101(void *value);
+uint32_t appMBX_Write_2102(void *value);
+uint32_t appMBX_Write_2103(void *value);
+uint32_t appMBX_Write_2104(void *value);
+uint32_t appMBX_Write_2105(void *value);
+uint32_t appMBX_Write_2106(void *value);
+uint32_t appMBX_Write_2107(void *value);
+uint32_t appMBX_Write_2108(void *value);
+uint32_t appMBX_Write_2109(void *value);
+uint32_t appMBX_Write_210A(void *value);
+uint32_t appMBX_Write_210B(void *value);
+uint32_t appMBX_Write_210C(void *value);
+uint32_t appMBX_Write_210D(void *value);
+uint32_t appMBX_Write_210E(void *value);
+uint32_t appMBX_Write_210F(void *value);
+uint32_t appMBX_Write_2110(void *value);
+uint32_t appMBX_Write_2111(void *value);
+uint32_t appMBX_Write_2112(void *value);
+uint32_t appMBX_Write_2113(void *value);
+uint32_t appMBX_Write_2114(void *value);
+uint32_t appMBX_Write_2115(void *value);
+uint32_t appMBX_Write_2116(void *value);
+uint32_t appMBX_Write_2117(void *value);
+uint32_t appMBX_Write_2118(void *value);
+uint32_t appMBX_Write_2119(void *value);
+uint32_t appMBX_Write_211A(void *value);
+uint32_t appMBX_Write_211B(void *value);
+uint32_t appMBX_Write_211C(void *value);
+uint32_t appMBX_Write_211D(void *value);
+uint32_t appMBX_Write_211E(void *value);
+uint32_t appMBX_Write_211F(void *value);
+uint32_t appMBX_Write_2120(void *value);
+uint32_t appMBX_Write_2121(void *value);
+uint32_t appMBX_Write_2122(void *value);
+uint32_t appMBX_Write_2123(void *value);
+uint32_t appMBX_Write_2124(void *value);
+uint32_t appMBX_Write_2125(void *value);
+uint32_t appMBX_Write_2126(void *value);
+uint32_t appMBX_Write_2127(void *value);
+uint32_t appMBX_Write_2128(void *value);
+uint32_t appMBX_Write_2129(void *value);
+uint32_t appMBX_Write_212A(void *value);
+uint32_t appMBX_Write_212B(void *value);
+uint32_t appMBX_Write_212C(void *value);
+uint32_t appMBX_Write_212D(void *value);
+uint32_t appMBX_Write_212E(void *value);
+uint32_t appMBX_Write_212F(void *value);
+uint32_t appMBX_Write_2130(void *value);
+uint32_t appMBX_Write_2131(void *value);
+uint32_t appMBX_Write_2132(void *value);
+uint32_t appMBX_Write_2133(void *value);
+uint32_t appMBX_Write_2134(void *value);
+uint32_t appMBX_Write_2135(void *value);
+uint32_t appMBX_Write_2136(void *value);
+uint32_t appMBX_Write_2137(void *value);
+uint32_t appMBX_Write_2138(void *value);
+uint32_t appMBX_Write_2139(void *value);
+uint32_t appMBX_Write_213A(void *value);
+uint32_t appMBX_Write_213B(void *value);
+uint32_t appMBX_Write_213C(void *value);
+uint32_t appMBX_Write_213D(void *value);
+uint32_t appMBX_Write_213E(void *value);
+uint32_t appMBX_Write_213F(void *value);
+uint32_t appMBX_Write_2140(void *value);
+uint32_t appMBX_Write_2141(void *value);
+uint32_t appMBX_Write_2142(void *value);
+uint32_t appMBX_Write_2143(void *value);
+uint32_t appMBX_Write_2144(void *value);
+uint32_t appMBX_Write_2145(void *value);
+uint32_t appMBX_Write_2146(void *value);
+uint32_t appMBX_Write_2147(void *value);
+uint32_t appMBX_Write_2148(void *value);
+uint32_t appMBX_Write_2149(void *value);
+uint32_t appMBX_Write_214A(void *value);
+uint32_t appMBX_Write_214B(void *value);
+uint32_t appMBX_Write_214C(void *value);
+uint32_t appMBX_Write_214D(void *value);
+uint32_t appMBX_Write_214E(void *value);
+uint32_t appMBX_Write_214F(void *value);
+uint32_t appMBX_Write_2150(void *value);
+uint32_t appMBX_Write_2151(void *value);
+uint32_t appMBX_Write_2152(void *value);
+uint32_t appMBX_Write_2153(void *value);
+uint32_t appMBX_Write_2154(void *value);
+uint32_t appMBX_Write_2155(void *value);
+uint32_t appMBX_Write_2156(void *value);
+uint32_t appMBX_Write_2157(void *value);
+uint32_t appMBX_Write_2158(void *value);
+uint32_t appMBX_Write_2159(void *value);
+uint32_t appMBX_Write_215A(void *value);
+uint32_t appMBX_Write_215B(void *value);
+uint32_t appMBX_Write_215C(void *value);
+uint32_t appMBX_Write_215D(void *value);
+uint32_t appMBX_Write_215E(void *value);
+uint32_t appMBX_Write_215F(void *value);
+uint32_t appMBX_Write_2160(void *value);
+uint32_t appMBX_Write_2161(void *value);
+uint32_t appMBX_Write_2162(void *value);
+uint32_t appMBX_Write_2163(void *value);
+uint32_t appMBX_Write_2164(void *value);
+uint32_t appMBX_Write_2165(void *value);
+uint32_t appMBX_Write_2166(void *value);
+uint32_t appMBX_Write_2400(void *value);
+uint32_t appMBX_Write_2401(void *value);
+uint32_t appMBX_Write_2402(void *value);
+uint32_t appMBX_Write_2403(void *value);
+uint32_t appMBX_Write_2404(void *value);
+uint32_t appMBX_Write_2405(void *value);
+uint32_t appMBX_Write_2406(void *value);
+uint32_t appMBX_Write_2407(void *value);
+uint32_t appMBX_Write_2408(void *value);
+uint32_t appMBX_Write_2409(void *value);
+uint32_t appMBX_Write_240A(void *value);
+uint32_t appMBX_Write_240B(void *value);
+uint32_t appMBX_Write_240C(void *value);
+uint32_t appMBX_Write_240D(void *value);
+uint32_t appMBX_Write_240E(void *value);
+uint32_t appMBX_Write_240F(void *value);
+uint32_t appMBX_Write_2410(void *value);
+uint32_t appMBX_Write_2500(void *value);
+uint32_t appMBX_Write_2501(void *value);
+uint32_t appMBX_Write_2502(void *value);
+
+#endif /* APP_MODBUS_REG_H */
